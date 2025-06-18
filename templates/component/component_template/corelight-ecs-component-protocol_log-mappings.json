@@ -158,7 +158,7 @@
               "ignore_above": 32000,
               "type": "keyword"
             }
-          ]
+          }
         },
         "bacnet": {
           "properties": {
