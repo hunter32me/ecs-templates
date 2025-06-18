@@ -145,10 +145,6 @@
               "ignore_above": 32000,
               "type": "float"
             },
-            "item_assoc_entities": {
-              "ignore_above": 32000,
-              "type": "keyword"
-            },
             "item_assoc_entities_similarity": {
               "ignore_above": 32000,
               "type": "float"
