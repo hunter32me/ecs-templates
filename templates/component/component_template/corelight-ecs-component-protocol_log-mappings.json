@@ -143,15 +143,12 @@
               "type": "keyword"
             },
             "item_score": {
-              "ignore_above": 32000,
               "type": "float"
             },
             "item_assoc_entities_similarity": {
-              "ignore_above": 32000,
               "type": "float"
             },
             "ignorable": {
-              "ignore_above": 32000,
               "type": "boolean"
             },
             "anomaly_type": {
