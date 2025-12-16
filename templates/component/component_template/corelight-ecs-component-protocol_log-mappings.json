@@ -3434,6 +3434,30 @@
                 }
               }
             },
+            "unknown": {
+              "properties": {
+                "protocol": {
+                  "ignore_above": 2048,
+                  "type": "keyword"
+                },
+                "protocol_history": {
+                  "ignore_above": 2048,
+                  "type": "keyword"
+                },
+                 "protocol_id": {
+                  "ignore_above": 2048,
+                  "type": "keyword"
+                },
+                 "protocol_name": {
+                  "ignore_above": 2048,
+                  "type": "keyword"
+                },
+                 "first_bytes": {
+                  "ignore_above": 2048,
+                  "type": "keyword"
+                }
+              }
+            },
             "direction": {
               "ignore_above": 4096,
               "type": "keyword"
