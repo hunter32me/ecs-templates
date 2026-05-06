@@ -805,6 +805,29 @@
         },
         "corelight": {
           "properties": {
+            "asset_classification": {
+              "properties": {
+                "classification_ts": {
+                   "type": "date"                  
+                },
+                "confidence": {
+                  "type": "integer"
+                },
+                "device_type": {
+                  "type": "keyword"
+                },
+                "type_name": {
+                  "type": "keyword"
+                },
+                "type_group": {
+                  "type": "keyword"
+                },
+                "sources": {
+                   "type": "keyword"
+                }
+              },
+              "type": "object"
+            },
             "source": {
               "properties": {
                 "ip": {
@@ -6087,6 +6110,9 @@
     }
   }
 }
+
+
+
 
 
 
