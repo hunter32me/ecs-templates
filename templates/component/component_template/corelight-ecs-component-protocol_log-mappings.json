@@ -842,6 +842,38 @@
               }
             }
             },
+            "cloud": {
+              "properties":{
+                "capture_metadata_vpc_vpc_id": {
+                  "type": "keyword"
+                },
+                "corelight.cloud.capture_source": {
+                  "type": "keyword"
+                },
+                "orig_inst.sg_ids": {
+                  "type": "keyword"
+                },
+                "cloud.orig_inst_subnet_id": {
+                  "type": "keyword"
+                },
+                "orig_inst_name": {
+                  "type": "keyword"
+                },
+                "orig_inst_org_id": {
+                  "type": "keyword"
+                },
+                "orig_inst_profile": {
+                  "type": "keyword"
+                },
+                "orig_inst_az": {
+                  "type": "keyword"
+                },
+                "orig_inst_id":{
+                  "type": "keyword"
+                }
+              }
+            
+            },
             "known": {
               "properties": {
                 "conns_closed": {
