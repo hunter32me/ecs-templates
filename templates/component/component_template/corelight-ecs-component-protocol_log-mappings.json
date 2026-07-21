@@ -850,7 +850,7 @@
                 "corelight.cloud.capture_source": {
                   "type": "keyword"
                 },
-                "orig_inst.sg_ids": {
+                "orig_inst_sg_ids": {
                   "type": "keyword"
                 },
                 "cloud.orig_inst_subnet_id": {
