@@ -1101,6 +1101,52 @@
             "domain_total_vowels": {
               "type": "long"
             },
+            "first_seen": {
+          "properties": {
+            "entity": {
+              "ignore_above": 32000,
+              "type": "keyword"
+            },
+            "history_days": {
+              "type": "long"
+            },
+            "history_seconds": {
+              "type": "long"
+            },
+            "item": {
+              "fields": {
+                "security": {
+                  "analyzer": "es_stk_analyzer",
+                  "type": "text"
+                }
+              },
+              "ignore_above": 32000,
+              "type": "keyword"
+            },
+            "original_entity": {
+              "ignore_above": 32000,
+              "type": "keyword"
+            },
+            "type": {
+              "ignore_above": 32000,
+              "type": "keyword"
+            },
+            "use_case": {
+              "ignore_above": 32000,
+              "type": "keyword"
+            },
+            "use_case_description": {
+              "fields": {
+                "security": {
+                  "analyzer": "es_stk_analyzer",
+                  "type": "text"
+                }
+              },
+              "ignore_above": 32000,
+              "type": "keyword"
+            }
+          }
+        },
             "file": {
               "properties": {
                 "extension": {
